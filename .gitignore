@@ -1,0 +1,27 @@
+# Variables de entorno y secretos (NUNCA subir)
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Entorno virtual y compilados de Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Dependencias y build de Node / React
+node_modules/
+dist/
+build/
+.vite/
+
+# Archivos de sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log

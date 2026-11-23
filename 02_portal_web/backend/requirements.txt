@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+oracledb
+pydantic
+pydantic-settings
+python-dotenv
+bcrypt
+PyJWT
+email-validator
